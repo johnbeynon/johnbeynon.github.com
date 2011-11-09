@@ -4,6 +4,10 @@ layout: default
 
 <article>
   <h1>{{ page.title }}</h1>
+  <small>
+    <span><b>Date:</b> {{ page.date | date_to_string }}</span>
+    <span>| <b>Author:</b> {{ page.author }}</span>
+  </small>
   {{ content }}
 </article>
 

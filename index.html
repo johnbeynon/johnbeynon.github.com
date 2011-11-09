@@ -5,8 +5,13 @@ title: John Beynon
 
 {% for post in site.posts %}
   <article>
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <small>
+      <span><b>Date:</b> {{ post.date | date_to_string }}</span>
+      <span>| <b>Author:</b> {{ post.author }}</span>
+      <span><g:plusone size="small" annotation="inline" href="{{ post.url }}"></g:plusone></span>
+    </small>
     {{ post.content }}
     <hr />
   </article>
-  {% endfor %}
+{% endfor %}

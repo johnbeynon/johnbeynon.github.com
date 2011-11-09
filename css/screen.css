@@ -199,6 +199,10 @@ article p {
   margin: 14px 0 14px 0;
 }
 
+article small {
+font-size: 11px;
+}
+
 hr {
   margin-top: 35px;
   border: 0;
