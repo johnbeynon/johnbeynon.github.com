@@ -5,8 +5,8 @@ title: John Beynon
 
 {% for post in site.posts %}
   <article>
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     {{ post.content }}
     <hr />
   </article>
-{% endfor %}
-
+  {% endfor %}

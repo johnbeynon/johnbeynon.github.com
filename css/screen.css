@@ -53,6 +53,81 @@ header nav {
   padding: 12px 0 0;
 }
 
+}
+
+#sidebar {
+width: 250px;
+float: right;
+margin: 0 0 25px 0;
+}
+
+#sidebar .block {
+  padding: 25px 0 0;
+}
+
+#sidebar h3 {
+  padding: 0 0 3px 0;
+  font-size: 18px;
+}
+
+#sidebar .block ul {
+  border-bottom: 1px dotted #CCC;
+}
+
+#sidebar .block li {
+  border-top: 1px dotted #CCC;
+}
+
+#sidebar .block li a {
+  background: transparent url(images/bullet_black.gif) no-repeat scroll 6px 10px;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 2px 0 2px 15px;
+  display: block;
+  border-bottom: none;
+}
+
+footer {
+  width: 900px;
+  clear: both;
+  border-top: 1px dotted #CCC;
+  text-align: center;
+  padding: 30px 0 0;
+}
+
+article {
+  padding: 0 30px 0 0;
+}
+
+article h1, article h1 a {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  margin: 30px 0 10px 0;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+article p {
+  margin: 14px 0 14px 0;
+}
+
+hr {
+  margin-top: 35px;
+  border: 0;
+  border-top: 1px dotted #CCC;
+  width: 620px;
+  color: white;
+  clear: both;
+  border-image: initial;
+}
+
+header a, .content a, #sidebar a, footer a {
+  border-bottom: 1px dotted black;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
 #wrapper {
   width:900px;
   margin: 30px auto 140px;
@@ -112,7 +187,7 @@ article {
   padding: 0 30px 0 0;
 }
 
-article h1 {
+.content article h1, .content article h1 a {
   font-family: Georgia, serif;
   font-size: 28px;
   margin: 30px 0 10px 0;
@@ -132,11 +207,4 @@ hr {
   color: white;
   clear: both;
   border-image: initial;
-}
-
-.header a, .content a, #sidebar a, footer a {
-  border-bottom: 1px dotted black;
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
 }

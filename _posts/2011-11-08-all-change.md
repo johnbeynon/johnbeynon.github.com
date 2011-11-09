@@ -1,10 +1,8 @@
 ---
 layout: post
 title: All Change!
+author: John Beynon
 ---
-
-#All Change!
-
 Right then, time for a change.
 
 I've been in a dilema for quite some while now. I haven't blogged in

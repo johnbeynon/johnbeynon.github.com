@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Inaugral Heroku UK User Group
+author: John Beynon
 ---
-
-#Inaugral Heroku UK User Group
-
 I'm pleased to announced that the inaugral [Heroku][] UK meeting
 will take place at [Skillsmatter][] on December 5th.
 
