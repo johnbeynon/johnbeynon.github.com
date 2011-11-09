@@ -9,6 +9,16 @@ layout: default
     <span>| <b>Author:</b> {{ page.author }}</span>
   </small>
   {{ content }}
+  <div class="social">
+     <span><g:plusone size="small" annotation="inline" width="200"
+      href="http://john.beynon.org.uk{{ post.url }}"></g:plusone></span>
+    <span><a href="https://twitter.com/share"
+        class="twitter-share-button"
+        data-url="http://john.beynon.org.uk{{ post.url }}" data-count="horizontal"
+        data-via="johnbeynon">{{ post.title }}</a><script type="text/javascript"
+        src="//platform.twitter.com/widgets.js"></script></span>
+  </div>
+
 </article>
 
 <div id="related">

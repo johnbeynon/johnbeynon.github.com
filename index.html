@@ -9,10 +9,17 @@ title: John Beynon
     <small>
       <span><b>Date:</b> {{ post.date | date_to_string }}</span>
       <span>| <b>Author:</b> {{ post.author }}</span>
-      <span><g:plusone size="small" annotation="inline"
-        href="http://john.beynon.org.uk{{ post.url }}"></g:plusone></span>
     </small>
     {{ post.content }}
+    <div class="social">
+       <span><g:plusone size="small" annotation="inline" width="200"
+        href="http://john.beynon.org.uk{{ post.url }}"></g:plusone></span>
+      <span><a href="https://twitter.com/share"
+          class="twitter-share-button"
+          data-url="http://john.beynon.org.uk{{ post.url }}" data-count="horizontal"
+          data-via="johnbeynon">{{ post.title }}</a><script type="text/javascript"
+          src="//platform.twitter.com/widgets.js"></script></span>
+    </div>
     <hr />
   </article>
 {% endfor %}
