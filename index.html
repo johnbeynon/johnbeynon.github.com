@@ -9,7 +9,8 @@ title: John Beynon
     <small>
       <span><b>Date:</b> {{ post.date | date_to_string }}</span>
       <span>| <b>Author:</b> {{ post.author }}</span>
-      <span><g:plusone size="small" annotation="inline" href="{{ post.url }}"></g:plusone></span>
+      <span><g:plusone size="small" annotation="inline"
+        href="http://john.beynon.org.uk{{ post.url }}"></g:plusone></span>
     </small>
     {{ post.content }}
     <hr />
