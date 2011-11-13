@@ -27,11 +27,48 @@
       {{ content }}
     </div>
     <div id="sidebar">
-      <div id="about-me" class="block">
+      <div id="search" class="block">
+        <style type="text/css">
+        @import url(http://www.google.com/cse/api/branding.css);
+        </style>
+        <div class="cse-branding-bottom" style="background-color:#FFFFFF;color:#000000">
+          <div class="cse-branding-form">
+            <form action="http://www.google.co.uk/cse" id="cse-search-box">
+              <div>
+                <input type="hidden" name="cx" value="partner-pub-5552080014256853:6112379982" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="text" name="q" size="40" />
+                <input type="submit" name="sa" value="Search" />
+              </div>
+            </form>
+          </div>
+          <div class="cse-branding-logo">
+            <img src="http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" />
+          </div>
+          <div class="cse-branding-text">
+            Custom Search
+          </div>
+        </div>        
+      </div>
+      <div id="about-me" class="block noborder">
         <h3>About Me</h3>
-         <a rel="author" href="https://profiles.google.com/u/0/102563067814101499205">
-          <img src="http://www.google.com/images/icons/ui/gprofile_button-16.png" width="16" height="16"> Google+
-        </a>
+        <ul>
+          <li>
+            <a rel="author" href="https://profiles.google.com/u/0/102563067814101499205">
+              <img src="/images/google-plus-black.png"> Google+
+            </a>
+          </li>
+          <li>
+            <a href="http://twitter.com/johnbeynon"><img src="/images/twitter-2.png"> Twitter</a>
+          </li>
+          <li>
+             <a href="http://stackoverflow.com/users/93252/john-beynon"><img src="/images/stackoverflow.png"> StackOverflow</a>
+          </li>
+          <li>
+            <a href="https://github.com/johnbeynon"><img
+              src="/images/github.png" /> GitHub</a>
+          </li>
+        </ul>
       </div>
       <div id="recent-posts" class="block">
         <h3>Recent Posts</h3>
@@ -44,8 +81,7 @@
       <div id="feed" class="block">
         <h3>Feed</h3>
         <ul>
-          <li><a
-            href="http://feeds.feedburner.com/JohnBeynon">RSS</a></li>
+          <li><a href="http://feeds.feedburner.com/JohnBeynon"><img src="/images/rss.png"> RSS</a></li>
         </ul>
       </div>
     </div>
