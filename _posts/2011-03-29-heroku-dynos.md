@@ -14,7 +14,7 @@ When you give someone a slider the first thing they'll do is put it right to the
 Heroku's definition of a dyno is
 A dyno is a single web process running on Heroku. It is capable of serving a single web request (pageview) at a time.
 
-Heroku documents the key concepts of their platform here - but hey, we're developers who don't read no stinking documentation.
+Heroku documents the key concepts of their platform [here](http://devcenter.heroku.com/articles/key-concepts-performance) - but hey, we're developers who don't read no stinking documentation.
 
 In brief, if you have a web page in your application that has a request time of 250ms then a single dyno will be able to process 4 requests a second. If you then increase to 2 dynos you'll be have to process 8 requests a second, 3 dynos - 12 requests a second etc etc. Increasing dyno count increases concurrency NOT performance so it's down to you to get your code as performance as possible, halfing a request time of 250ms to 125ms would double your possible requests per second to 8 so making your code as performant as possible will keep your Heroku bill down since you'll need less dynos.
 
