@@ -1,1 +1,3 @@
-###This is the data for my blog
+### john.beynon.org.uk
+
+Jekyll blog

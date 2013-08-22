@@ -2,6 +2,7 @@
 layout: post
 title: Increasing Heroku Dynos != More Performance
 author: John Beynon
+tags: heroku
 ---
 Something I keep coming across time and time again is a complete misunderstanding of Heroku Dynos and what increasing the count of them in your application will give you.
 

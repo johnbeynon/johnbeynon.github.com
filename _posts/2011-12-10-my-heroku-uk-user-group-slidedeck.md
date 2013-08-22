@@ -2,6 +2,7 @@
 layout: post
 title: "My Heroku UK User Group Slide Deck" 
 author: John Beynon
+tags: heroku
 ---
 
 Better late than never, here's the slide deck from my presentation earlier this week to the new Heroku UK user group.

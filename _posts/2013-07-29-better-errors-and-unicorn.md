@@ -2,6 +2,7 @@
 layout: post
 title: "Better Errors and Unicorn" 
 author: John Beynon
+tags: Ruby Rails
 ---
 
 Nine times out of ten my applications are hosted on Heroku and consequently
@@ -10,6 +11,8 @@ applications.
 
 Ten times out ten I use the [Better Errors](https://github.com/charliesome/better_error) gem to replace the standard Rails
 error pages.
+
+<!--- more --->
 
 I'd noticed that on occasions that when I ran into errors during development
 that the right panel of Better Errors wasn't populating and I just overlooked it.

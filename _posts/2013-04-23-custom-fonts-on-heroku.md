@@ -2,10 +2,13 @@
 layout: post
 title: "Custom fonts on Heroku" 
 author: John Beynon
+tags: heroku
 ---
 
 We had a requirement to use a specific font when rendering a PDF using
 wkhtmltopdf / wicked_pdf.
+
+<!--- more --->
 
 We've been scratching our heads on this one for a while and had resorted to
 thinking that we'd need to use a custom build pack.

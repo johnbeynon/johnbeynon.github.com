@@ -1,0 +1,94 @@
+---
+---
+
+@import "bootstrap";
+
+@font-face {
+  font-family: "Flat-UI-Icons";
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#Flat-UI-Icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home-navbar {
+  @extend .navbar; 
+  @extend .navbar-fixed-top;
+  @extend .navbar-inverse;
+  background-color: #2980B9;
+}
+
+.home-navbar .navbar-brand {
+  color: #EEE;
+  :hover {
+    color: #FFF;
+  }
+}
+
+body {
+  padding-top: 80px;
+}
+
+.fui-twitter,
+.fui-facebook,
+.fui-googleplus,
+.fui-github,
+.fui-stackoverflow,
+.fui-linkedin {
+  font-family: "Flat-UI-Icons";
+  display: inline-block;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fui-twitter:before {
+  content: "\e003";
+}
+
+.fui-github:before {
+  content: "\e000";
+}
+
+.fui-linkedin:before {
+  content: "\e001";
+}
+
+.fui-stackoverflow:before {
+  content: "\e005";
+}
+
+
+.fui-googleplus:before {
+  content: "\e002";
+}
+
+.home-share-btn {
+  @extend .btn;
+  @extend .btn-primary;
+}
+
+.navbar-brand {
+  color: #EEE;
+  max-width: 300px;
+  :hover {
+    color: #FFF;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+p, li {
+  // font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+li {
+  line-height: 30px;
+}

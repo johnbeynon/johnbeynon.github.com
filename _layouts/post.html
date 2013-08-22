@@ -1,46 +1,22 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  {% include header.html %}
+<body>
+  {% include nav_bar.html %}
 
-<article>
-  <h1>{{ page.title }}</h1>
-  <small>
-    <span><b>Date:</b> {{ page.date | date_to_string }}</span>
-    <span>| <b>Author:</b> {{ page.author }}</span>
-  </small>
-  {{ content }}
-  <div class="social">
-     <span><g:plusone size="small" annotation="inline" width="200"
-      href="http://john.beynon.org.uk{{ post.url }}"></g:plusone></span>
-    <span><a href="https://twitter.com/share"
-        class="twitter-share-button"
-        data-url="http://john.beynon.org.uk{{ post.url }}" data-count="horizontal"
-        data-via="johnbeynon">{{ post.title }}</a><script type="text/javascript"
-        src="//platform.twitter.com/widgets.js"></script></span>
-  </div>
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'johnbeynonsblog'; // required: replace example with your forum shortname
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  <div class="container">
+    <h1>{{page.title}}</h1>
+    <div>
+      {{ page.date | date: "%B %d, %Y" }}
+    </div>
+    <br />
+    <p>By John Beynon</p>
+    <hr />
 
-</article>
+    {{content}}
 
-<div id="related">
-  <h2>Other recent posts...</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
+  {% include footer.html %}
+  </div> <!-- /container -->
+</body>
+</html>

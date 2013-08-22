@@ -2,6 +2,7 @@
 layout: post
 title: "My ElasticSearch 101 to Surrey Ruby User Group Slide Deck" 
 author: John Beynon
+tags: SRUG
 ---
 
 Here's the slidedeck from the presentation I gave last night to the Surrey Ruby User group.
