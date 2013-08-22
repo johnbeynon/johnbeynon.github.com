@@ -25,7 +25,7 @@ rails new -m https://github.com/johnbeynon/heroku-rails-template
 ```
 
 You can see [here](https://github.com/johnbeynon/heroku-rails-template) the full
-wdetails of what the template does. Remembering a URL like that isn't particular easy and if it's not easy to
+details of what the template does. Remembering a URL like that isn't particular easy and if it's not easy to
 remember you'll forget to use it, so I also whipped up a quick plugin for the
 Heroku CLI which you can install via
 
