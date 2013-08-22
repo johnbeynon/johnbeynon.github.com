@@ -8,7 +8,7 @@ tags: Heroku Ruby Rails
 If there's one thing I do a lot of is building Rails applications for deployment
 to Heroku. It's also something that my colleagues at [Kyan](http://kyan.com) do.
 Keeping up to date with the best practices and Heroku's own recommended best
-practices is tough - not to mention configuring your application for a seemless
+practices is tough - not to mention configuring your application for a seamless
 asset pipeline deploy.
 
 <!--- more --->
