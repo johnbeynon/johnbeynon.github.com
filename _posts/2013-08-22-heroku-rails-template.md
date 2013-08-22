@@ -24,7 +24,8 @@ you have installed when it is invoked by simply doing
 rails new -m https://github.com/johnbeynon/heroku-rails-template
 ```
 
-Now, remembering a URL like that isn't particular easy and if it's not easy to
+You can see [here](https://github.com/johnbeynon/heroku-rails-template) the full
+wdetails of what the template does. Remembering a URL like that isn't particular easy and if it's not easy to
 remember you'll forget to use it, so I also whipped up a quick plugin for the
 Heroku CLI which you can install via
 
