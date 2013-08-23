@@ -11,18 +11,14 @@
   font-style: normal;
 }
 
-.home-navbar {
-  @extend .navbar; 
-  @extend .navbar-fixed-top;
-  @extend .navbar-inverse;
-  background-color: #2980B9;
+.navbar {
+  background-color: #428bca;
+  border-color: #428bca;
 }
 
-.home-navbar .navbar-brand {
+.navbar .navbar-brand {
   color: #EEE;
-  :hover {
-    color: #FFF;
-  }
+  :hover { color: #FFF; }
 }
 
 body {
@@ -84,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, li {
-  // font-weight: 300;
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
 }
