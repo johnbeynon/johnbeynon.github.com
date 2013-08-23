@@ -11,11 +11,13 @@ application to services like Heroku.
 In short, a validation such as
 
 ```ruby
-validates_acceptable_of :terms, allow_nil: false
+validates_acceptance_of :terms, allow_nil: false
 ```
 
 can result in your application becoming undeployable for the first time on
 Heroku.
+
+<!--- more --->
 
 When you do try and deploy it for the first time, gems are bundled etc and then
 assets are attempted to be precompiled via a rake task, the problem is that
@@ -39,7 +41,16 @@ This has been fixed in [this](https://github.com/rails/rails/pull/11389) pull
 request but it's not made it out into general release yet.
 
 A quick fix, if you run into this problem is to not eager load on that initial
-deployment, changing it back to true when you've deployed successfully and run
+deployment (config.eager_load = false), changing it back to true when you've
+deployed successfully and having run
 your migrations.
+
+If your application has already been deployed when you add a validation like
+this and you've given your application access to the environment variables (via
+user-env-compile lab) then the problem won't appear and applications will deploy
+fine.
+
+We've also found this affects other gems such as
+[redactor-rails](https://github.com/SammyLin/redactor-rails).
 
 
