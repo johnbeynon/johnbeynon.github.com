@@ -21,4 +21,6 @@ and can control the direction of your tank and turret, speed of movement etc -
 it's great fun and everyone had a great time, we held an elimation tournament to
 start with before loading all the bots into a single arena for a death match.
 
-{% youtube oIFJ_3ibCPY %}
+Take a watch of the [DeathMatch](http://www.youtube.com/watch?v=oIFJ_3ibCPY) on
+YouTube.
+
