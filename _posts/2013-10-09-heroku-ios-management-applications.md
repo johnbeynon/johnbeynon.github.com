@@ -15,4 +15,7 @@ October 2013 (prices and feature set) and I may have missed some features or
 incorrectly compared a feature - if I did,
 it can't have been obvious enough how to perform the task in hand.
 
+Boost were gracious enough to provide me with a free version of their
+application. Thanks!
+
 I'm not making judgements here, you can do that yourself.
